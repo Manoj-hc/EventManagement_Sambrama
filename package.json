@@ -8,7 +8,6 @@
     "start": "next start"
   },
   "dependencies": {
-    "link": "^0.1.5",
     "next": "^15.3.3",
     "next-images": "^1.7.0",
     "next-preload-headers": "^3.0.4",

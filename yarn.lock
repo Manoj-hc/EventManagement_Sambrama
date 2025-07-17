@@ -552,11 +552,6 @@ json5@^2.1.2:
   resolved "https://registry.npmjs.org/json5/-/json5-2.2.3.tgz"
   integrity sha512-XmOWe7eyHYH14cLdVPoyg+GOH3rYX++KpzrylJwSW98t3Nk+U8XOl8FWKOgwtzdb8lXGf6zYwDUzeHMWfxasyg==
 
-link@^0.1.5:
-  version "0.1.5"
-  resolved "https://registry.npmjs.org/link/-/link-0.1.5.tgz"
-  integrity sha512-ltCVJEoN80PEjHHznuhQN5zweh/HBXOINNEGmoJpXgZ6u+21mDvI1a8k3dg0ovlSnns4S+7BhiRisi+znn+Uyg==
-
 loader-runner@^4.2.0:
   version "4.2.0"
   resolved "https://registry.npmjs.org/loader-runner/-/loader-runner-4.2.0.tgz"
