@@ -1,0 +1,20 @@
+{
+  "name": "sambrama",
+  "version": "0.1.0",
+  "private": false,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
+  },
+  "dependencies": {
+    "link": "^0.1.5",
+    "next": "^15.3.3",
+    "next-images": "^1.7.0",
+    "next-preload-headers": "^3.0.4",
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0",
+    "react-icons": "^4.1.0",
+    "react-router-dom": "^5.2.0"
+  }
+}

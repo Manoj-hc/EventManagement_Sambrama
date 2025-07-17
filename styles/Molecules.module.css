@@ -1,0 +1,99 @@
+.textButtonContainer {
+  display: flex;
+  align-items: center;
+}
+.textButton1 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  border-bottom: 1.5px solid #fff;
+  padding-bottom: 8px;
+}
+.textButton {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  border-bottom: 1.5px solid #fff;
+  padding-bottom: 8px;
+}
+
+.textButton:hover {
+  cursor: pointer;
+  color: #eee;
+}
+
+.icon {
+  margin-bottom: 8px;
+  margin-left: 4px;
+}
+
+/**--------------------------------------------------min-width:1000----------------------------------------------------------------------**/
+
+@media only screen and (max-width: 1000px)
+{
+.textButton {
+  font-size: 14px;
+  padding-bottom: 6px;
+  border-bottom: 1.5px solid #fff;
+}
+.textButton1 {
+  font-size: 14px;
+  padding-bottom: 6px;
+  border-bottom: 1.5px solid #fff;
+}
+
+}
+
+/**--------------------------------------------------min-width:800----------------------------------------------------------------------**/
+
+@media only screen and (max-width: 800px)
+{
+.textButton1 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 10px;
+  font-weight: 500;
+  border-bottom: 1.5px solid #fff;
+  padding-bottom: 4px;
+}
+
+}
+
+/**--------------------------------------------------min-width:700----------------------------------------------------------------------**/
+
+@media only screen and (max-width: 700px)
+{
+.textButton1 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 8px;
+  font-weight: 500;
+  border-bottom: 1px solid #fff;
+  padding-bottom: 2px;
+  margin-left:20px;
+}
+
+}
+
+/**--------------------------------------------------min-width:650----------------------------------------------------------------------**/
+
+@media only screen and (max-width: 650px)
+{
+.textButton1 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 6px;
+  font-weight: 500;
+  border-bottom: 0.5px solid #fff;
+  padding-bottom: 1px;
+  margin-left:20px;
+}
+
+}
+
+/**--------------------------------------------------min-width:500----------------------------------------------------------------------**/
+
+@media only screen and (max-width: 500px)
+{
+.textButton1 {
+  display:none;
+}
+
+}

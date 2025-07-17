@@ -1,0 +1,220 @@
+.galleryContainer {
+  background-color: #101010;
+  color: #fff;
+  width: 100%;
+  min-height:100vh;
+}
+
+.logoWrapper {
+  padding: 40px 0 0 0;
+}
+
+.headingContainer {
+  margin-bottom: 120px;
+}
+
+.pageHeading {
+  font-family: 'Playfair Display', serif;
+  font-size: 64px;
+  font-weight: 700;
+  text-align: center;
+  margin: 0
+}
+
+.subHeading {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  text-align: center;
+}
+
+.buttonText  {
+  display: flex;
+  justify-content: center;
+  padding: 20px 0;
+}
+
+.contactContainer {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 100px 0 80px 0;
+}
+
+.contactHeading {
+  line-height: 120px;
+  margin: 0;
+  margin-right: 160px;
+  font-family: 'Playfair Display', serif;
+  font-weight: 700;
+  font-size: 52px;
+  width: 45%;
+}
+
+/**--------------------------------------------------min-width:1300----------------------------------------------------------------------**/
+
+@media only screen and (max-width: 1300px)
+{
+.pageHeading {
+  font-size: 50px;
+  margin: 0
+}
+
+.subHeading {
+  font-size: 16px;
+  text-align: center;
+}
+.contactHeading {
+  line-height: 80px;
+  margin-right: 160px;
+  font-size: 40px;
+  width: 45%;
+}
+
+}
+
+/**--------------------------------------------------min-width:1200----------------------------------------------------------------------**/
+
+@media only screen and (max-width: 1200px)
+{
+.logoWrapper {
+  padding: 40px 0 0 100px;
+}
+.pageHeading {
+  font-size: 40px;
+  margin: 0
+}
+
+.subHeading {
+  font-size: 14px;
+  text-align: center;
+}
+.contactHeading {
+  line-height: 70px;
+  margin-left: 70px;
+  margin-right:0;
+  font-size: 35px;
+  width: 45%;
+}
+}
+
+/**--------------------------------------------------min-width:1000----------------------------------------------------------------------**/
+
+@media only screen and (max-width: 1000px)
+{
+.logoWrapper {
+  padding: 40px 0 0 70px;
+}
+.pageHeading {
+  font-size: 35px;
+  margin: 0
+}
+
+.subHeading {
+  font-size: 14px;
+  text-align: center;
+}
+.contactHeading {
+  line-height: 60px;
+  margin-left: 30px;
+  margin-right:0;
+  font-size: 30px;
+  width: 40%;
+}
+}
+
+/**--------------------------------------------------min-width:850----------------------------------------------------------------------**/
+
+@media only screen and (max-width: 850px)
+{
+.logoWrapper {
+  padding: 40px 0 0 70px;
+}
+.pageHeading {
+  font-size: 30px;
+  margin: 0
+}
+
+.subHeading {
+  font-size: 12px;
+  text-align: center;
+}
+.contactHeading {
+  line-height: 40px;
+  margin-left: 20px;
+  margin-right:0;
+  font-size: 24px;
+  width: 35%;
+}
+}
+
+/**--------------------------------------------------min-width:600----------------------------------------------------------------------**/
+
+@media only screen and (max-width: 600px)
+{
+.logoWrapper {
+  padding: 40px 0 0 40px;
+}
+.pageHeading {
+  font-size: 30px;
+  margin-top: 30px;
+}
+
+.subHeading {
+  font-size: 12px;
+  text-align: center;
+}
+.contactHeading {
+  line-height: 40px;
+  margin-left: 40px;
+  margin-right:0px;
+  font-size: 20px;
+  width: 30%;
+  margin-top:-80px;
+}
+}
+
+
+/**--------------------------------------------------min-width:500----------------------------------------------------------------------**/
+
+@media only screen and (max-width: 500px)
+{
+.logoWrapper {
+  padding: 40px 0 0 40px;
+}
+.pageHeading {
+  font-size: 30px;
+}
+
+.subHeading {
+  font-size: 12px;
+  text-align: center;
+}
+.contactHeading {
+  line-height: 40px;
+  margin-left: 40px;
+  margin-bottom:30px;
+  font-size: 20px;
+  width: 80%;
+  margin-top:0px;
+}
+
+
+.contactContainer {
+  display: flex;
+  flex-direction:column;
+  justify-content: space-between;
+  align-items: left;
+  padding: 10px 0 0px 0;
+}
+
+}
+
+/**--------------------------------------------------min-width:500----------------------------------------------------------------------**/
+
+@media only screen and (max-width: 500px)
+{
+.pageHeading {
+  font-size: 25px;
+}
+}

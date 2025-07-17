@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700;800&display=swap');
+
+.admin{
+  padding:50px;
+  background-color: #2a2c2d;
+  color: #fff;
+  width: 100%;
+  min-height:100vh;
+  cursor:context-menu;
+}
+
+.container{
+  justify-content: center;
+  align-items: center;
+  height:100%;
+  width:40%;
+  margin-left:30%;
+  border-radius:10px;
+  border:0.5px solid #fff;
+}
+
+.conthead{
+  font-family: 'Montserrat', serif;
+  font-weight: 400;
+  font-size: 30px;
+  text-align:center;
+  width:100%;
+  padding:30px;
+}
+
+.heading{
+  font-family: 'Montserrat', serif;
+  font-weight: 500;
+  font-size: 42px;
+  text-align:center;
+  width:100%;
+  padding:40px;
+}
+
+.inputcont{
+  display:flex;
+  flex-direction:column;
+  height:160px;
+  justify-content:space-between;
+  padding:20px 30%;
+}
+
+.input{
+  height:40px;
+  width:100%;
+  font-family: 'Montserrat', serif;
+  font-weight: 300;
+  font-size: 15px;
+  border:none;
+  border-radius:5px;
+  padding:0 25px;
+}
+
+.button{
+  width:30%;
+  margin:50px 35%;
+  text-align:center;
+  background:#495aac;
+  border-radius:5px;
+  padding:8px 0;
+}
+.button:hover{
+  cursor:pointer;
+  background:#41519f;
+}
